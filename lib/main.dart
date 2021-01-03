@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(
@@ -40,6 +41,14 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 1.5,
                     color: Colors.white54,
                     fontFamily: "SourceSansPro-Regular"),
+              ),
+              Center(
+                child: SizedBox(
+                  width: 155.0,
+                  height: 5.0,
+                  child: Divider(color: Colors.white),
+
+                ),
               ),
               Card(
                 color: Colors.white,
